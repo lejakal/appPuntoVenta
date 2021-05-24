@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:label="@string/title_inventory" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView android:id="@+id/cardv1" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="56.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0dip" android:textColor="@color/colorDefault" android:id="@+id/name1" android:padding="3.0dip" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="Producto" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0dip" android:textColor="@color/colorDefault" android:id="@+id/cant1" android:padding="3.0dip" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="Cantidad" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0dip" android:textColor="@color/colorDefault" android:id="@+id/price1" android:padding="3.0dip" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="Valor" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView android:id="@+id/recycler_items" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="84.0dip" android:layout_below="@+id/cardv1" />
+</FrameLayout>

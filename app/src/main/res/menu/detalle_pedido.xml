@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/btn_cambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/sync_datos"
+        android:orderInCategory="1"
+        android:title="Agregar Cambio"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btn_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/agregar"
+        android:orderInCategory="2"
+        android:title="Agregar Articulos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btn_eliminar"
+        android:icon="@drawable/cancelar"
+        android:orderInCategory="3"
+        android:title="Eliminar"
+        app:showAsAction="ifRoom" />
+</menu>

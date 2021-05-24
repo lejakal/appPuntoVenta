@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/background_dark" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cliente" />
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/background_dark" android:id="@+id/nameCliente" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nombre" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/background_dark" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CC" />
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/background_dark" android:id="@+id/ccCliente" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="cc" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/background_dark" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Direccion" />
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/background_dark" android:id="@+id/dirCliente" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="direc" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/background_dark" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Observaciones" />
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/background_dark" android:id="@+id/observacion" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="observaciones" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/background_dark" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tipo de Pago" />
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/background_dark" android:id="@+id/tipoPayment" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="pago" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

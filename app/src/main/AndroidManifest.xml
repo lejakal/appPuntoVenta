@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.danielreyes.TAT" platformBuildVersionCode="1" platformBuildVersionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name="com.example.danielreyes.TAT.loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.example.danielreyes.TAT.MainActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.principalActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.models.syncActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.ZonasActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.HomeActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.RutasActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.ClientesZonasActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.PedidosActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.InventoryActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.SettingsActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.CatalogoActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.DetallepedidoActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.EditarPedidoActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.SynPedidosActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.SynDetallePedidoActivity"/>
+        <activity android:name="com.example.danielreyes.TAT.TipoPagoActivity"/>
+        <activity android:label="@string/title_activity_principal" android:name="com.example.danielreyes.TAT.ListInventoryActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.danielreyes.TAT.ListItemsPedidoActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.danielreyes.TAT.opcionesActivity"/>
+        <activity android:name="com.example.danielreyes.TAT.repoVentasActivity"/>
+        <activity android:name="com.example.danielreyes.TAT.perfilActivity"/>
+        <activity android:name="com.example.danielreyes.TAT.misClientesActivity"/>
+        <activity android:name="com.example.danielreyes.TAT.ListadoClientesActivity" android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+</manifest>

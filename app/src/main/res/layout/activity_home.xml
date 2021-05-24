@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/colorDefault" android:id="@+id/title" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Rutas" />
+    <ListView android:id="@+id/listZonas" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:layout_below="@+id/title" />
+    <RelativeLayout android:id="@+id/bottomBar" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView android:id="@+id/bottomNavView_Bar" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent" app:menu="@menu/navigation" />
+    </RelativeLayout>
+</RelativeLayout>
